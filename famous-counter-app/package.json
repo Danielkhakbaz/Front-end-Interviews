@@ -1,10 +1,16 @@
 {
-  "name": "",
+  "name": "famous-counter-app",
   "version": "0.1.0",
   "private": true,
-  "author": "",
-  "description": "",
-  "keywords": [],
+  "author": "Danial Khakbaz<danialkhakbaz.dk@gmail.com>",
+  "description": "Famous Counter App with Next.js and Tailwind CSS",
+  "keywords": [
+    "nextjs",
+    "tailwindcss",
+    "typescript",
+    "react",
+    "famous-counter-app"
+  ],
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
