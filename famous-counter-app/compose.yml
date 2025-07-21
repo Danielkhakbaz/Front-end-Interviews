@@ -1,0 +1,15 @@
+services:
+  web:
+    build:
+      context: .
+    ports:
+      - 3000:3000
+    # volumes:
+    #   - .:/app
+    #   - /app/node_modules
+    environment:
+      NODE_ENV: development
+      # NEXT_PUBLIC_PROTOCOL: http
+      # NEXT_PUBLIC_BASE_URL: 192.168.93.136
+      # NEXT_PUBLIC_PORT: 8442
+    command: pnpm run dev

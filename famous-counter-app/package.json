@@ -1,0 +1,48 @@
+{
+  "name": "famous-counter-app",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Danial Khakbaz<danialkhakbaz.dk@gmail.com>",
+  "description": "Famous Counter App with Next.js and Tailwind CSS",
+  "keywords": [
+    "nextjs",
+    "tailwindcss",
+    "typescript",
+    "react",
+    "famous-counter-app"
+  ],
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --fix .",
+    "fix": "prettier --write .",
+    "dep-check": "yarn upgrade-interactive --latest",
+    "check-prettier": "prettier . --check",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "next": "15.3.5",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/node": "^24.0.12",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "eslint": "^8",
+    "eslint-config-next": "15.4.0-canary.51",
+    "eslint-plugin-boundaries": "^5.0.1",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-project-structure": "^3.13.3",
+    "husky": "^9.1.7",
+    "next-view-transitions": "^0.3.4",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.13",
+    "sharp": "^0.34.2",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3"
+  }
+}
